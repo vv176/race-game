@@ -10,6 +10,7 @@ public class Simulation {
     private static boolean ans = false;
     private static final Map<Integer, Island> islands =
             new HashMap<>();
+    // TODO : Add check for cycles
     public static void canTraverse(int current) {
         if (current == end) {
             ans = true;
